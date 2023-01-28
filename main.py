@@ -36,7 +36,7 @@ if __name__ == "__main__":
         for index, item in enumerate(list1):
             print(f"{index+1}: {item}")
         n = input("Enter your choice: ")
-        if (n == 'q'):
+        if (n.lower() == 'q'):
             print("Ok, see you next time")
             exit()
         try:
