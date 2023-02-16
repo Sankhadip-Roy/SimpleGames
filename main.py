@@ -9,7 +9,7 @@ if __name__ == "__main__":
         initialization.choices()
         choice = input(Fore.YELLOW + "Enter your choice: ")
         print(Style.RESET_ALL)
-        if (choice == 'q'):
+        if (choice.lower() == 'q'):
             print("Ok, see you next time")
             exit()
         # Error handling for choice, low, high is int or not
